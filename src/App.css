@@ -1,0 +1,29 @@
+.App{
+  border: none;
+  background-color:black;
+    width: 119vh;
+      height: 120vh;
+        display: flex;
+          flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+              justify-content: center;
+              }
+              #root{
+                overflow: hidden;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                background-color: blue;
+              }           
+
+iframe{
+  margin-top: 30px;
+  border:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
