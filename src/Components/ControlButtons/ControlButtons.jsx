@@ -16,7 +16,7 @@ export function ControlButtons(props) {
             </div>
             <div className="btn btn-one"
             onClick={props.handlePauseResume}>
-                {props.isPaused ? "Resume" + <div id="space" content="''" ></div> : "Pause" }
+                {props.isPaused ? "Resume" : "Pause" }
             </div>
         </div>
     );
