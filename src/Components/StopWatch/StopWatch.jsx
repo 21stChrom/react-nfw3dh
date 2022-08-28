@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './StopWatch.css';
+import pic from '../pic.png';
 import Timer from '../Timer/Timer';
 import ControlButtons from '../ControlButtons/ControlButtons';
 
@@ -40,6 +41,7 @@ function StopWatch () {
     
     return (
         <div className="stop-watch">
+             <img src={pic} />
 <Timer time={time} />
 <ControlButtons active={isActive}
 isPaused={isPaused}
