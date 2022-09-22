@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <StopWatch />
       <div>
-      <img src={process.env.PUBLIC_URL+"pic.png"} />
+      
       </div>
       <iframe
         id="embed"
